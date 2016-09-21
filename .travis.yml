@@ -8,3 +8,10 @@ addons:
     - mongodb-3.2-precise
     packages:
     - mongodb-org-server
+deploy:
+  provider: heroku
+  api_key:
+    secure: hVF1WQzl2QUPAxYPsmaFchQDPY4LTm0AJ3jBIzpPfEH+jAb+G1MECiZyuxhx8i833sPwLTQQu1ycQMvz6wEiIztfylf+Ng+xqUcyds6KlDiJ3QOuSqSHZOVamtK9TlcNovD49TwDCFneDzJ5tQLnNmzgLCEUh3QRFH/EiEKsWqUlfHOy4eOjN7c6pWIJaLfIhYIonLsmrktAZNLygTJbqri83MPl4kST5RDplgKp7N6AwQROT2H3Fu+SvkQgD5FxDg0Aqpuw/Favo8AfUS6b0ei/JmQfAKCJZaFMQyIr50TqpQDKgCkpO7fmPqbv5vkH1dLNKAU/Qb/yIYBbCFs5BCUFzypGjW4w+dpOWAaZ48FgdUjukcIkx+R/dThoACl6F6S+PgzGg7z0uZPSS38Ua4RET2zwJXmxC5kneDNgyBT7tidUYd2YwIjc9GQ7IB3c/XfZtRvCtfJA3ut/h0jjiKOiFaXIjTdE7saGd3HuRVnNNMwKn3IDDeVb2yul04Wx2t+TlZOX6G4dAFtxwF1zAvOwgFVfD7kF7gBQQh6CFIu8AgstjB0HFLB974vDaTDnH0yD6pmAmpRHnlX0Ncc8k2iTIqZZahft6yLU5wbG9k3gOEJLNAX9cYE5GIJbH6QUXiautA5gOpn7EzgXWyWO4XwyN6y1yi4HGLWO3qzqOeI=
+  app: desolate-gorge-17675
+  on:
+    repo: Zakjholt/mongo-shopping-list
