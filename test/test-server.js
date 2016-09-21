@@ -49,9 +49,6 @@ describe('Shopping List', function() {
                 res.body.should.be.a('object');
                 res.body.should.have.property('name');
                 res.body.name.should.equal('Kale');
-                Item.find({
-                    'name': 'Kale'
-                }).should.exist;
                 done();
             });
     });
